@@ -42,3 +42,6 @@ $ git remote
 $ git push -u origin master
 Username for 'https://github.com': bigredradish
 Password for 'https://bigredradish@github.com':
+
+##pull from repo
+$ git pull origin master
