@@ -1,0 +1,12 @@
+laravel:
+
+Only change the DB settings in the .env file - these values are then pulled into the database file
+
+in laravel 5.4 and up
+
+migration may give the error:
+SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`))
+solved by:
+https://laravel.com/docs/master/migrations#creating-indexes
+->Index Lengths & MySQL / MariaDB
+Add the 'use' as well as adding in to the boot function
