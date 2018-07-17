@@ -13,6 +13,9 @@ $ git config --global user.name 'David Radford'
 ##add email to git
 $ git config --global user.email 'dave@bigredradish.com'
 
+## add a default editor 
+git config --global core.editor nano
+
 ##get git status
 $ git status
 
