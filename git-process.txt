@@ -10,7 +10,7 @@ $ git init
 ##add user name to git
 $ git config --global user.name 'David Radford'
 
-##addemail to git
+##add email to git
 $ git config --global user.email 'dave@bigredradish.com'
 
 ##get git status
@@ -19,7 +19,7 @@ $ git status
 ##create a file
 $ touch index.html
 
-## add the file to the staging area [can use 'git add .'  to add all files (outside of gitignore)]
+## add the file to the staging/tracking area [can use 'git add .'  to add all files (outside of gitignore)]
 $ git add index.html
 
 ## commit changes to repo [-m is message - the text after it is the commit message]
