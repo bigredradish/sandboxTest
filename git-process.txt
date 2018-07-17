@@ -1,0 +1,41 @@
+https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=1s
+
+$ git --version
+
+##navigate to directory you wan to add as a repository
+
+##initialize folder to use git (creates a .git folder) 
+$ git init
+
+##add user name to git
+$ git config --global user.name 'David Radford'
+
+##addemail to git
+$ git config --global user.email 'dave@bigredradish.com'
+
+##get git status
+$ git status
+
+##create a file
+$ touch index.html
+
+## add the file to the staging area [can use 'git add .'  to add all files (outside of gitignore)]
+$ git add index.html
+
+## commit changes to repo [-m is message - the text after it is the commit message]
+$ git commit -m 'First Commit'
+
+##LOG INTO GITHUB AND CREATE A NEW REPOSITORY
+## can call it what you like
+## you get given instruction sof what to do:
+
+## add the github repo as a remote repo
+$ git remote add origin https://github.com/bigredradish/sandboxTest.git
+
+##list the remote repos
+$ git remote
+
+##push to the remote repo (will get asked for user and password)
+$ git push -u origin master
+Username for 'https://github.com': bigredradish
+Password for 'https://bigredradish@github.com':
