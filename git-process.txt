@@ -2,7 +2,8 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=1s
 
 $ git --version
 
-##navigate to directory you wan to add as a repository
+##navigate to directory you want to add as a repository e.g.
+$ cd /var/www/devroot/sandbox
 
 ##initialize folder to use git (creates a .git folder) 
 $ git init
