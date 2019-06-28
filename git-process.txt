@@ -18,7 +18,7 @@ $ git config --global user.email 'dave@bigredradish.com'
 git config --global core.editor nano
 
 ##get git status
-$ git status
+$ git config --global user.name 'David Radford'
 
 ##create a file
 $ touch index.html
@@ -46,3 +46,6 @@ Password for 'https://bigredradish@github.com':
 
 ##pull from repo
 $ git pull origin master
+
+##sometimes if you created an index file when you set up the repo in github you'll need to do this:
+$ git pull origin master --allow-unrelated-histories
